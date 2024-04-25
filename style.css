@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.order-btn {
+  cursor: pointer;
+  /* color: #e5e7eb; */
+  background-color: #e6c647;
+  padding: 8px 10px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+}
+.order-btn:hover {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border: 1px solid #e6c647;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 80px 0px;
+  background-color: #1f2937;
+}
+.content {
+  padding-left: 240px;
+}
+.hero-title {
+  color: #f9faf8;
+  font-weight: bold;
+  font-size: 45px;
+  margin-bottom: 5px;
+}
+.hero-img {
+  max-width: 64%;
+  flex-shrink: 0;
+}
+.signup-btn {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 8px 28px;
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+}
+p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+/* Menu-section */
+
+.menu-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0px;
+}
+.menu-title {
+  font-weight: bolder;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+#menu-item-container {
+  display: flex;
+}
+.menu-content,
+.menu-img {
+  width: 200px;
+  height: 200px;
+  margin: 15px;
+  border-radius: 10px;
+}
+.menu-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.img-content {
+  color: #1f2937;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Quote-section */
+.quote-section {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px;
+}
+.quote-text {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: #1f2937;
+  text-align: justify;
+  max-width: 65%;
+  letter-spacing: 1px;
+}
+.text-owner {
+  margin: 10px 0px 0px 400px;
+}
+
+/* Reservetion section */
+.reserve-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+.reserve-container {
+  display: flex;
+  background-color: #3882f6;
+  width: 50%;
+  border-radius: 5px;
+  padding: 20px 55px;
+}
+.reserve-content {
+  display: flex;
+  flex-direction: column;
+}
+.reserve-content div {
+  color: #f9faf8;
+  font-weight: bold;
+}
+.reserve-content p {
+  font-size: 14px;
+  color: #e5e7eb;
+}
+.reserve-btn {
+  cursor: pointer;
+  color: #f9faf8;
+  background-color: #3882f6;
+  padding: 8px 10px;
+  margin-left: 15px;
+  border: 1px solid #e6c647;
+  border-radius: 5px;
+}
+
+.reserve-btn:hover {
+  background-color: #e6c647;
+  color: #1f2937;
+}
+
+/* Footer section */
+footer {
+  background-color: #1f2937;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  color: #e5e7eb;
+  font-size: 15px;
+}
